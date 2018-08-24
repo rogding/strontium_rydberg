@@ -1,4 +1,4 @@
-n,Series,Term,E_obs,E_obs_stat,E_obs_sys,E_calc,Delta_E,delta_obs,delta_calc
+n,Series,Term,E_obs,E_obs_stat,E_obs_sys,E_calc,DeltaE,delta_obs,delta_calc
 10,5snd,1D2,44239.4549,0.001,0,44239.4549,-0.00005,1.94844,1.94844
 11,5snd,1D2,44578.6890,0.001,0,44578.6889,0.00006,1.99580,1.99580
 12,5snd,1D2,44829.6648,0.001,0,44829.6648,0.00002,2.02346,2.02346
