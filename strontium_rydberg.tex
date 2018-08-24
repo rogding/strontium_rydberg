@@ -1,0 +1,53 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{braket}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage[]{siunitx}
+\usepackage[style=phys,
+			articletitle=false,
+			biblabel=brackets,
+			chaptertitle=false,
+			pageranges=false]{biblatex}
+
+% Additional options
+\addbibresource{bibliography.bib}
+
+% Macros
+\newcommand{\tsup}{\textsuperscript}													% superscript outside math mode.
+\newcommand{\tsub}{\textsubscript}														% subscript outside math mode.
+\newcommand{\Sr}[1]{\tsup{#1}\textnormal{Sr}}											% {}^{xx}Sr outside math mode.
+\newcommand{\Srion}[1]{\textnormal{Sr}\tsup{#1}}										% {}Sr^{xx} outside math mode.
+\newcommand{\Li}[1]{\tsup{#1}\textnormal{Li}}											% {}^{xx}Li outside math mode.
+\newcommand{\SLJ}[3]{\tsup{#1}\textnormal{#2}\tsub{#3}}
+\newcommand{\SLJF}[4]{\tsup{#1}\textnormal{#2}\tsub{#3}\textnormal{, }{F = {#4}}}
+\newcommand{\nSLJ}[4]{{#1}\textnormal{ }\SLJ{#2}{#3}{#4}}
+\newcommand{\nSLJm}[5]{{#1}\textnormal{ }\SLJ{#2}{#3}{#4}\textnormal{, }{m_J = {#5}}}
+\newcommand{\nSLJF}[5]{{#1}\textnormal{ }\SLJ{#2}{#3}{#4}\textnormal{, }{F = {#5}}}
+
+% Front matter
+\title{Notes on the strontium rydberg data}
+\author{Roger Ding}
+%\date
+ 
+% Start of the document.
+\begin{document}
+
+\maketitle
+
+
+Some notes on the transcribed data.
+
+\section{\citetitle{blt_1982a}}
+
+ 
+ 
+\printbibliography
+
+\end{document}

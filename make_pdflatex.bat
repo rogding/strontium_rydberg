@@ -1,0 +1,4 @@
+pdflatex strontium_rydberg
+biber strontium_rydberg
+pdflatex strontium_rydberg
+pdflatex strontium_rydberg
