@@ -21,4 +21,4 @@ for i in range(len(DATA_FILES)):
     
     output_df = pd.concat([output_df, temp_df])
 
-output_df.to_csv('blt_1982a.csv', sep=',')
+output_df.to_csv('blt_1982a-analyzed.csv', sep=',')
