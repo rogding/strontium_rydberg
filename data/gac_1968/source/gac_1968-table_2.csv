@@ -1,4 +1,4 @@
-Series,n,Term,lambda_vac,unc_lambda_vac,nu,n*
+Series,n,Term,lambda_vac,lambda_vac_unc,nu,n*
 5snp,22,3P1,2193.8,0.008,45583,17.75
 5snp,23,3P1,2192.04,0.008,45619.6,18.74
 5snp,24,3P1,2190.53,0.008,45651.1,19.76
