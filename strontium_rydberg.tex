@@ -101,9 +101,27 @@ They don't explicitly specify which isotope they measure the term energies for b
 
 They state they are able to measure the Rydberg energies with an accuracy of \num{2E-8}. For now, I calculated the uncertainty assuming they mean an error \num{2E-8} of their measured energies (i.e., multiplying their reported energies by \num{2E-8}) which I'll need to include in the analysis code. 
 
-\section*{\fullcite{bls_1982}}
+\section{\fullcite{bls_1982}}
 
-(placeholder)
+In the ``Experimental'' section, they give an accuracy of \SI{\pm0.15}{\per\cm} for the Sr lines. 
+
+\subsection{Changes to source material}
+
+\subsubsection{Table~4}
+
+There appear to be several errors in Table~4 in particular for ${n=16, 17, 21, 22, 44}$ where ${E_{exp} - E_{Langer}}$ calculated from the table values do not match with ${\Delta E}$ in the table. Using the $\SLJ{3}{S}{1}$ quantum defects from \cite{vjp_2012} (${R_{Sr} = \SI{109736.627}{\per\cm}}$) and the ionization energy from \cite{san_2010} (\SI{45932.1982}{\per\cm} for \Sr{88}), I calculated the expected term energies to see whether $E_{exp}$ or $E_{Langer}$ were incorrect. 
+
+For ${n=16}$: I calculate ${E(n=16) = \SI{45243.85936}{\per\cm}}$ so I think ${E_{Langer}(n=16)}$ is a typo.
+
+For ${n=17}$: I calculate ${E(n=17) = \SI{45341.21285}{\per\cm}}$ so I think ${E_{Langer}(n=17)}$ is a typo. Since the table gives ${\Delta E = 0}$, I set ${E_{Langer} = \SI{45341.28}{\per\cm}}$ (i.e., the $E_{Exp}$ value in the table).
+
+For ${n=21}$: I calculate ${E(n=21) = \SI{45579.039}{\per\cm}}$ so I think ${E_{Langer}(n=21)}$ is a typo. Changing $E_{Langer}$ in the table to \SI{45579.06}{\per\cm} makes ${\Delta E}$ correct.
+
+For ${n=22}$: I calculate ${E(n=22) = \SI{45615.944}{\per\cm}}$ so I think ${E_{Langer}(n=22)}$ is a typo. Changing $E_{Langer}$ in the table to \SI{45615.96}{\per\cm} makes ${\Delta E}$ correct.
+
+For ${n=44}$: I calculate ${E(n=44) = \SI{45865.719}{\per\cm}}$ so I think ${E_{Langer}(n=44)}$ is a typo. Changing $E_{Langer}$ in the table to \SI{45865.72}{\per\cm} makes ${\Delta E}$ correct.
+
+For now, I left the $E_{Langer}$ values in the table since I'm primarily interested in $E_{exp}$.
 
 \section{\fullcite{khk_1993}}
 
