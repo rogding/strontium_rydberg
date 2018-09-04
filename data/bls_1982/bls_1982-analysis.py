@@ -41,4 +41,4 @@ for i in DATA_FILES:
     # Join dataframes with shared column names (i.e., COLUMN_NAMES)
     df_output = pd.concat([df_output, df_temp], join='inner')
 
-df_output.to_csv('bls_1982-analyzed.csv')
+df_output.to_csv('bls_1982-analyzed.csv', index=False)
