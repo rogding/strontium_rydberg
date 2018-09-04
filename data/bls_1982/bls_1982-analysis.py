@@ -12,7 +12,6 @@ bls_1982:
 
 import os.path
 import pandas as pd
-import numpy as np
 
 # Names of data files in source/ subdirectory
 DATA_FILES = [os.path.join('source','bls_1982-table_4.csv'),
