@@ -1,4 +1,4 @@
-Series,n,Term,Designation,Two-photon_wavelength,E_present_expt,E_Esh_exp,E_Esh_MQDT,E_Rub_exp
+Series,n,Term,Level_designation,Two-photon_wavelength,E_Present_Expt,E_ Esherick_Expt,E_ Esherick_MQDT,E_Rubbmark_Expt
 5sns,12,1S0,5s12s,449.512,44492.69,44492.83,,44492.81
 5sns,13,1S0,5s13s,446.693,44773.48,44773.36,,44773.66
 5sns,14,1S0,5s14s,444.651,44979.09,44979.25,,44979.42
