@@ -48,6 +48,9 @@ for i in DATA_FILES:
     df_temp['E_exp'] = df_temp['Obs']
     df_temp['E_exp_unc'] = 0.2
     
+    # Drop rows states without an assigned energy
+    df_temp.dropna(subset=['E_exp'], inplace=True)   
+    
     df_output = pd.concat([df_output, df_temp], join='inner', ignore_index=True)
 
 
